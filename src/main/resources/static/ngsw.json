@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1646646555916,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.fa3e570763c3af16.js",
+        "/polyfills.2c0290ae7198b1c6.js",
+        "/runtime.00753f7d5e4e10c7.js",
+        "/styles.97e62f54002668e6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/clear.png",
+        "/assets/images/earth.png",
+        "/assets/images/everest-background3.png",
+        "/assets/images/generic-asteroid_512x512px.png",
+        "/assets/images/overallMap.png",
+        "/assets/images/sgSkyLine.png",
+        "/assets/images/singapore_map.png",
+        "/assets/manifest.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "9e89652b0ed34cb21c2f59af6433cc9b2ed93453",
+    "/assets/icons/icon-144x144.png": "8677782355a48ff08200abc908fd584d528aeb5d",
+    "/assets/icons/icon-152x152.png": "fd2ddb243b1e1a024719a5e44f4ba3a31a7b76f0",
+    "/assets/icons/icon-192x192.png": "8c25adbe193f0bd6956b25902ccb05976828fc45",
+    "/assets/icons/icon-512x512.png": "080b3e49f957630828d0e370531cf19995aa836f",
+    "/assets/icons/icon-72x72.png": "677f040eb40f8dd72c67676dd31f6caf05149aaa",
+    "/assets/icons/icon-96x96.png": "1374b0b6564e3221ab8873df5515f5af1dca4b9b",
+    "/assets/images/clear.png": "b73a19492caed9ba7755e688971b04faebb2d331",
+    "/assets/images/earth.png": "acc6a9f2f7d1077dd8f944a439f844a50ef970c5",
+    "/assets/images/everest-background3.png": "dd21d81a8357e1a81c4a4464f1361e2bc36e8f1d",
+    "/assets/images/generic-asteroid_512x512px.png": "32bb08ca54d17b36ca1ece8900bf406107d537fc",
+    "/assets/images/overallMap.png": "aa871865067a802a64ccce977a211dfa7205ba55",
+    "/assets/images/sgSkyLine.png": "4e7b6e494a2df1a34b3abd536533c88d75377ba4",
+    "/assets/images/singapore_map.png": "7adc391f2f731493d42e0f5ee91f4b943cebabad",
+    "/assets/manifest.json": "a0d3e9d3036d399026862ac759ae922fc049487e",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "0144bdf285ff3d034932f538248705f4fb409384",
+    "/main.fa3e570763c3af16.js": "33f4f14f28102765c547d1944a3a74347ff9b168",
+    "/polyfills.2c0290ae7198b1c6.js": "e35442ff3545a87700df695f23e42d261b379384",
+    "/runtime.00753f7d5e4e10c7.js": "508b1bb5267642242b40f9648d560ddb7205bd36",
+    "/styles.97e62f54002668e6.css": "4f31a7d748c01e94956a5df32557b8097de3794e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
