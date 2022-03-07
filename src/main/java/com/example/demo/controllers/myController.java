@@ -158,7 +158,7 @@ public class myController{
     public ResponseEntity<?>getAsteriodList() throws IOException{
         String apikey=System.getenv("NasaApiKey");
         String baseURL=constant.NASA_BASE_NEO_URL+apikey;
-        logger.log(Level.INFO, baseURL);
+        //logger.log(Level.INFO, baseURL);
         //get result and post back
         URI myUri=URI.create(baseURL);
         HttpHeaders headers=new HttpHeaders();
@@ -187,7 +187,7 @@ public class myController{
     public ResponseEntity<?>getAsteroidLookup(@RequestParam String id)throws Exception{
         String apikey=System.getenv("NasaApiKey");
         String baseURL=String.format(constant.NASA_BASE_NEO_LOOKUP_URL,id)+apikey;
-        logger.log(Level.INFO, baseURL);
+        //logger.log(Level.INFO, baseURL);
         //get result and post back
         URI myUri=URI.create(baseURL);
         HttpHeaders headers=new HttpHeaders();
