@@ -67,12 +67,12 @@ public class myController{
     private jwtUtil jwtTokenUtil;
 
     private final Logger logger = Logger.getLogger(myController.class.getName());
-
+    
     @GetMapping(path="/api/getNasaPicJ")
     public ResponseEntity<?> getPicJson() throws IOException{
         String apikey=System.getenv("NasaApiKey");
         String baseURL=constant.NASA_BASE_APOD_URL+apikey;
-        logger.log(Level.INFO, baseURL);
+        //logger.log(Level.INFO, baseURL);
         //get result and post back
         URI myUri=URI.create(baseURL);
         HttpHeaders headers=new HttpHeaders();
