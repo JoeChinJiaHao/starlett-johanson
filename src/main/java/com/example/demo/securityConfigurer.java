@@ -32,10 +32,10 @@ public class securityConfigurer extends WebSecurityConfigurerAdapter{
     protected void configure(HttpSecurity http) throws Exception{
         //part to disable security for selected sites. *note null string not allowed for list of sites
         http.csrf().disable().authorizeRequests().antMatchers("/api/authenticate","/api/getNasaPicJ",
-        "/api/checkUser","/api/checkUser2","/api/addUser","/api/addUser","/api/sendEmail","/api/gmap")
+        "/api/checkUser","/api/checkUser2","/api/addUser","/api/addUser","/api/sendEmail","/api/gmap","/index.html")
         .permitAll().
-        antMatchers("/assets/**").permitAll().
-        //anyRequest().authenticated().
+        //antMatchers("/assets/**").permitAll().
+        anyRequest().authenticated().
         and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.addFilterBefore(jwtRequestFilterp,UsernamePasswordAuthenticationFilter.class);
     }
